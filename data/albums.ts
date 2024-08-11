@@ -1,6 +1,7 @@
 export const albums = [
     {
-        album: "TTPD",
+        id: "TTPD",
+        album: "The Tortured Poets Department: The Anthology",
         songs: [
             "Fortnight", 
             "The Tortured Poets Department",

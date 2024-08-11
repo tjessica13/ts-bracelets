@@ -32,32 +32,43 @@ const SongsComponent = () => {
     }
 
     return (
-        <main>
-        <h1>TS Bracelets</h1>
-            <h1>{excludeLetters}</h1>
-            {
-                alphabet.map((letter) => (
-                    <button value={letter} onClick={() => handleClick(letter)}>{letter}</button>
-                ))
-            }
         <div>
-            {
-            albums.map((item, i) => (
-                <div>
-                <h2>{i}</h2>
-                <h2>{item.album}</h2>
-                {
-                    item.songs.map((song, j) => (
-                    <div>
-                        <h2>{filterSongs(song)}</h2>
+            <div className="Home">
+                <h1>Taylor Swift Friendship Bracelets</h1>
+                <div className="letter-container">
+                    <h2>Exclude Letters</h2>
+                    <h1>{excludeLetters}</h1>
+                    <div className="letter-buttons">
+                        {
+                        alphabet.map((letter) => (
+                        <button value={letter} onClick={() => handleClick(letter)}>{letter}</button>
+                        ))
+                        }
                     </div>
-                    ))
-                }
+                    
                 </div>
-            ))
-            }
+                
+            </div>
+            
+            <div>
+                {
+                albums.map((item) => (
+                    <div className="album" id={item.id}>
+                        <h2>{item.album}</h2>
+                            <div className="songs">
+                                {
+                                    item.songs.map((song, j) => (
+                                    <div className="song">
+                                        <p>{filterSongs(song)}</p>
+                                    </div>
+                                    ))
+                                }
+                            </div>
+                    </div>
+                ))
+                }
+            </div>
         </div>
-        </main>
     );
 }
 
