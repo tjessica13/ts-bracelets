@@ -1,0 +1,38 @@
+export const albums = [
+    {
+        album: "TTPD",
+        songs: [
+            "Fortnight", 
+            "The Tortured Poets Department",
+            "My Boy Only Breaks His Favourite Toys",
+            "Down Bad",
+            "So Long, London",
+            "But Daddy I Love Him",
+            "Fresh Out The Slammer",
+            "Florida!!!",
+            "Guilty as Sin?",
+            "Who's Afraid of Little Old Me?",
+            "I Can Fix Him (No Really I Can)",
+            "loml",
+            "I Can Do It With a Broken Heart",
+            "The Smallest Man Who Ever Lived",
+            "The Alchemy",
+            "Clara Bow",
+            "The Black Dog",
+            "imgonnagetyouback",
+            "The Albatross",
+            "Chloe or Sam or Sophia or Marcus",
+            "How Did It End?",
+            "So High School",
+            "I Hate It Here",
+            "thanK you aIMee",
+            "I Look in People's Windows",
+            "The Prophecy",
+            "Cassandra",
+            "Peter",
+            "The Bolter",
+            "Robin",
+            "The Manuscript"
+        ]
+    },
+]
