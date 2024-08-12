@@ -50,7 +50,7 @@ const SongsComponent = () => {
                 
             </div>
             
-            <div>
+            <div className="albums">
                 {
                 albums.map((item) => (
                     <div className="album" id={item.id}>

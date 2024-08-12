@@ -36,4 +36,56 @@ export const albums = [
             "The Manuscript"
         ]
     },
+    {
+        id: "NineteenEightyNine",
+        album: "1989 (Taylor's Version)",
+        songs: [
+            "Welcome to New York"
+        ]
+    },
+    {
+        id: "SpeakNow",
+        album: "Speak Now (Taylor's Version)",
+        songs: ["Speak Now"]
+    },
+    {
+        id: "Midnights",
+        album: "Midnights",
+        songs: ["Lavendar Haze"]
+    },
+    {
+        id: "Red",
+        album: "Red (Taylor's Version)",
+        songs: ["Red"]
+    },
+    {
+        id: "Fearless",
+        album: "Fearless (Taylor's Version)",
+        songs: ["Fearless"]
+    },
+    {
+        id: "evermore",
+        album: "evermore",
+        songs: ["willow"]
+    },
+    {
+        id: "folklore",
+        album: "folklore",
+        songs: ["the 1"]
+    },
+    {
+        id: "Lover",
+        album: "Lover",
+        songs: ["Lover"]
+    },
+    {
+        id: "reputation",
+        album: "reputation",
+        songs: ["Ready for it?"]
+    },
+    {
+        id: "TaylorSwift",
+        album: "Taylor Swift",
+        songs: ["Our Song"]
+    }
 ]
