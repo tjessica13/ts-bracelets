@@ -14,7 +14,9 @@ const SongsComponent = () => {
         
         // https://stackoverflow.com/questions/5582574/how-to-check-if-a-string-contains-text-from-an-array-of-substrings-in-javascript
         if (!excludeLetters.some(letter => lowerSong.includes(letter.toLowerCase()))){
-            return song
+            return (<div className="song">
+                <p>{song}</p>
+            </div>)
         }
     }
 
@@ -58,9 +60,7 @@ const SongsComponent = () => {
                             <div className="songs">
                                 {
                                     item.songs.map((song, j) => (
-                                    <div className="song">
-                                        <p>{filterSongs(song)}</p>
-                                    </div>
+                                        filterSongs(song)
                                     ))
                                 }
                             </div>
