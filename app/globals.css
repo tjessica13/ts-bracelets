@@ -43,11 +43,6 @@ button {
   font-size: 20px;
 }
 
-.albums {
-  display: flex;
-  flex-direction: column;
-}
-
 #TTPD {
   /*https://x.com/socasuallygay/status/1754338398268277088*/
   background-color: #edebe7;
@@ -58,12 +53,12 @@ button {
 
 #NineteenEightyNine {
   background-color: #B5E5F8;
-  color: white;
+  color: black;
 }
 
 #SpeakNow {
   background-color: #C7A8CB;
-  color: white;
+  color: black;
 }
 
 #Midnights {
@@ -78,31 +73,37 @@ button {
 
 #Fearless {
   background-color: #EFC180;
-  color: white;
+  color: black;
 }
 
 #evermore {
   background-color: #C5AC90;
-  color: white;
+  color: black;
 }
 
 #folklore {
   background-color: #CDC9C1;
+  color: black;
 }
 
 #Lover {
   background-color: #F7B0CC;
-  color: white;
+  color: black;
 }
 
 #reputation {
   background-color: #746F70;
+  color: white;
 }
 
 #TaylorSwift {
   background-color: #A5C9A5;
+  color: black;
 }
 
+.albums {
+  overflow: hidden;
+}
 
 .album {
   padding: 10px;
@@ -110,20 +111,26 @@ button {
 
 .songs{
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   padding-right: 30px;
   padding-left: 30px;
-  max-height: 200px;
+  justify-content: start;
+  align-items: center;
+}
+
+.song {
+  width: 300px;
 }
 
 .song p{
   font-size: 18px;
+  margin: 5px;
 }
 
 @media screen and (max-width:990px) {
   .songs { 
     flex-wrap: nowrap; 
     height: auto;
+    flex-direction: column;
   }
 }
