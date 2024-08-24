@@ -2,13 +2,7 @@
 import { albums } from '@/data/albums';
 import { useState } from 'react';
 
-import { Sacramento } from 'next/font/google';
-
-const sacramento = Sacramento({
-    subsets: ['latin'],
-    weight: ['400'],
-    variable: '--font-sacramento',
-});
+import { sacramento, montserrat, rochester, anton, permanent_marker, unifraktur_maguntia, satisfy, im_fell_dw_pica, libre_calson_display } from '../app/fonts';
 
 const SongsComponent = () => {
 
@@ -42,7 +36,9 @@ const SongsComponent = () => {
     }
 
     return (
-        <div className={`${sacramento.variable}`}>
+        <div className={`${sacramento.variable} ${montserrat.variable} ${rochester.variable} ${anton.variable} 
+        ${permanent_marker.variable} ${unifraktur_maguntia.variable} ${satisfy.variable} ${im_fell_dw_pica.variable}
+        ${libre_calson_display.variable}`}>
             <div className="Home">
                 <h1>Taylor Swift Friendship Bracelets</h1>
                 <div className="letter-container">

@@ -43,12 +43,15 @@ button {
   font-size: 20px;
 }
 
-/*fonts https://x.com/taygracie133/status/1431295926476447747*/
-
 #TTPD {
   /*https://x.com/socasuallygay/status/1754338398268277088*/
   background-color: #edebe7;
   color: #1c211f;
+}
+
+#TTPD h2 {
+  text-transform: uppercase;
+  font-family: var(--font-libre_calson_display);
 }
 
 /*https://www.pinterest.com/pin/taylor-swift-eras-color-hex-codes--2744449767106043/*/
@@ -58,9 +61,17 @@ button {
   color: black;
 }
 
+#NineteenEightyNine h2 {
+  font-family: var(--font-permanent_marker);
+}
+
 #SpeakNow {
   background-color: #C7A8CB;
   color: black;
+}
+
+#SpeakNow h2 {
+  font-family: var(--font-rochester);
 }
 
 #Midnights {
@@ -68,14 +79,26 @@ button {
   color: white;
 }
 
+#Midnights h2{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 #Red {
   background-color: #7A2E39;
   color: white;
 }
 
+#Red h2 {
+  font-family: var(--font-anton);
+}
+
 #Fearless {
   background-color: #EFC180;
   color: black;
+}
+
+#Fearless h2 {
+  font-family: var(--font-montserrat);
 }
 
 #evermore {
@@ -88,14 +111,26 @@ button {
   color: black;
 }
 
+#folklore h2, #evermore h2 {
+  font-family: var(--font-im_fell_dw_pica);
+}
+
 #Lover {
   background-color: #F7B0CC;
   color: black;
 }
 
+#Lover h2 {
+  font-family: var(--font-satisfy);
+}
+
 #reputation {
   background-color: #746F70;
   color: white;
+}
+
+#reputation h2 {
+  font-family: var(--font-unifraktur_maguntia);
 }
 
 #TaylorSwift {
