@@ -154,7 +154,7 @@ button {
   flex-wrap: wrap;
   padding-right: 30px;
   padding-left: 30px;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
 }
 
