@@ -43,6 +43,8 @@ button {
   font-size: 20px;
 }
 
+/*fonts https://x.com/taygracie133/status/1431295926476447747*/
+
 #TTPD {
   /*https://x.com/socasuallygay/status/1754338398268277088*/
   background-color: #edebe7;
@@ -99,6 +101,10 @@ button {
 #TaylorSwift {
   background-color: #A5C9A5;
   color: black;
+}
+
+#TaylorSwift h2 {
+  font-family: var(--font-sacramento);
 }
 
 .albums {

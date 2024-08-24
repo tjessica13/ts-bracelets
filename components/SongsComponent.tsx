@@ -2,6 +2,14 @@
 import { albums } from '@/data/albums';
 import { useState } from 'react';
 
+import { Sacramento } from 'next/font/google';
+
+const sacramento = Sacramento({
+    subsets: ['latin'],
+    weight: ['400'],
+    variable: '--font-sacramento',
+});
+
 const SongsComponent = () => {
 
     const alphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
@@ -34,7 +42,7 @@ const SongsComponent = () => {
     }
 
     return (
-        <div>
+        <div className={`${sacramento.variable}`}>
             <div className="Home">
                 <h1>Taylor Swift Friendship Bracelets</h1>
                 <div className="letter-container">
