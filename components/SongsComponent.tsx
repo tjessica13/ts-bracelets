@@ -4,6 +4,9 @@ import { useState } from 'react';
 
 import { sacramento, montserrat, rochester, anton, permanent_marker, unifraktur_maguntia, satisfy, im_fell_dw_pica, libre_calson_display } from '../app/fonts';
 
+import Image from 'next/image';
+import background from '../public/home_background.png'
+
 const SongsComponent = () => {
 
     const alphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
@@ -39,7 +42,18 @@ const SongsComponent = () => {
         <div className={`${sacramento.variable} ${montserrat.variable} ${rochester.variable} ${anton.variable} 
         ${permanent_marker.variable} ${unifraktur_maguntia.variable} ${satisfy.variable} ${im_fell_dw_pica.variable}
         ${libre_calson_display.variable}`}>
-            <div className="Home">
+            <div className="Home h-screen">
+
+            <div className="absolute inset-0 -z-10">
+                <Image
+                src={background}
+                layout="fill"
+                objectFit="cover"
+                quality={100}
+                alt="home background with bracelets"
+                />
+            </div>
+
                 <h1>Taylor Swift Friendship Bracelets</h1>
                 <div className="letter-container">
                     <h2>Exclude Letters</h2>
