@@ -47,12 +47,12 @@ const SongsComponent = () => {
             
             <div className="Home h-screen">
             <div className="top">
-                <Link href="./">TOP</Link>
+                <button><Link href="./">TOP</Link></button>
             </div>
-            <div className="album-nav flex">
+            <div className="album-nav flex justify-around items-center">
                 {
                     albums.map((item) => (
-                        <Link href={'#' + item.id}>{item.album}</Link>
+                        <Link className={"album-link " + item.id} href={'#' + item.id}>{item.album}</Link>
                     ))
                 }
             </div>

@@ -23,14 +23,21 @@ body {
 .album-nav {
   top: 0px;
   position: fixed;
+  background-color: white;
+  width: 100%;
+  padding: 5px;
 }
 
 .top {
   bottom: 0px;
   position: fixed;
   right: 0px;
-  padding: 20px;
-  margin: 40px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.top button {
+  font-size: 35px;
 }
 
 h1 {
@@ -70,6 +77,10 @@ button {
   font-family: var(--font-libre_calson_display);
 }
 
+.TTPD:hover {
+  color: #a5a396;
+}
+
 /*https://www.pinterest.com/pin/taylor-swift-eras-color-hex-codes--2744449767106043/*/
 
 #NineteenEightyNine {
@@ -81,6 +92,10 @@ button {
   font-family: var(--font-permanent_marker);
 }
 
+.NineteenEightyNine:hover {
+  color: #B5E5F8;
+}
+
 #SpeakNow {
   background-color: #C7A8CB;
   color: black;
@@ -88,6 +103,10 @@ button {
 
 #SpeakNow h2 {
   font-family: var(--font-rochester);
+}
+
+.SpeakNow:hover {
+  color: #C7A8CB;
 }
 
 #Midnights {
@@ -99,6 +118,10 @@ button {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.Midnights:hover {
+  color: #242E47;
+}
+
 #Red {
   background-color: #7A2E39;
   color: white;
@@ -106,6 +129,10 @@ button {
 
 #Red h2 {
   font-family: var(--font-anton);
+}
+
+.Red:hover {
+  color: #7A2E39;
 }
 
 #Fearless {
@@ -117,14 +144,26 @@ button {
   font-family: var(--font-montserrat);
 }
 
+.Fearless:hover {
+  color: #EFC180;
+}
+
 #evermore {
   background-color: #C5AC90;
   color: black;
 }
 
+.evermore:hover {
+  color: #C5AC90;
+}
+
 #folklore {
   background-color: #CDC9C1;
   color: black;
+}
+
+.folklore:hover {
+  color: #CDC9C1;
 }
 
 #folklore h2, #evermore h2 {
@@ -140,6 +179,10 @@ button {
   font-family: var(--font-satisfy);
 }
 
+.Lover:hover {
+  color: #F7B0CC;
+}
+
 #reputation {
   background-color: #746F70;
   color: white;
@@ -149,6 +192,10 @@ button {
   font-family: var(--font-unifraktur_maguntia);
 }
 
+.reputation:hover {
+  color: #746F70;
+}
+
 #TaylorSwift {
   background-color: #A5C9A5;
   color: black;
@@ -156,6 +203,10 @@ button {
 
 #TaylorSwift h2 {
   font-family: var(--font-sacramento);
+}
+
+.TaylorSwift:hover {
+  color: #A5C9A5;
 }
 
 .albums {
