@@ -42,6 +42,10 @@ button {
   font-size: 20px;
 }
 
+.album-playlist {
+  border-radius: 10px;
+}
+
 #TTPD {
   /*https://x.com/socasuallygay/status/1754338398268277088*/
   background-color: #edebe7;

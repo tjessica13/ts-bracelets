@@ -2,6 +2,7 @@ export const albums = [
     {
         id: "TTPD",
         album: "The Tortured Poets Department: The Anthology",
+        playlist: "https://youtube.com/playlist?list=OLAK5uy_nHp0eyey7jk72rkbes6rVYFLohYBEkFFQ&si=YY4xvRmKX0SoLkCC",
         songs: [
             "Fortnight", 
             "The Tortured Poets Department",

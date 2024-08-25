@@ -74,7 +74,10 @@ const SongsComponent = () => {
                 {
                 albums.map((item) => (
                     <div className="album" id={item.id}>
-                        <h2>{item.album}</h2>
+                        <div className="album-header flex gap-5 justify-center items-center">
+                            <h2>{item.album}</h2>
+                            <a href={item.playlist} target="_blank" rel="noopener noreferrer" className="album-playlist">Playlist</a>
+                        </div>
                             <div className="songs">
                                 {
                                     item.songs.map((song, j) => (
