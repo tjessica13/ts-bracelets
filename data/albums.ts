@@ -40,6 +40,7 @@ export const albums = [
     {
         id: "NineteenEightyNine",
         album: "1989 (Taylor's Version)",
+        playlist: "https://youtube.com/playlist?list=OLAK5uy_mvRgYPh8u-KBTbU6mkGyrg5CBduos_LEY&si=4mKNrvV-coTX2N-g",
         songs: [
             "Welcome to New York",
             "Blank Space",
@@ -67,6 +68,7 @@ export const albums = [
     {
         id: "SpeakNow",
         album: "Speak Now (Taylor's Version)",
+        playlist: "https://youtube.com/playlist?list=OLAK5uy_n8xJHj0rL3zyol9oYHsVTBHm-L_eY-3gY&si=Cp35joWZ2gFx436G",
         songs: [
             "Mine",
             "Sparks Fly",
@@ -95,6 +97,7 @@ export const albums = [
     {
         id: "Midnights",
         album: "Midnights",
+        playlist: "https://youtube.com/playlist?list=OLAK5uy_kn1QevMa4cdaqnn7QI-FdoeGDaies3lAM&si=c7lWyU2-83c1WIAf",
         songs: [
             "Lavendar Haze",
             "Maroon",
@@ -122,6 +125,7 @@ export const albums = [
     {
         id: "Red",
         album: "Red (Taylor's Version)",
+        playlist: "https://youtube.com/playlist?list=OLAK5uy_kvYl6SDSIWUZ7loEGQlwzF7j04xzWvoZQ&si=1zyS0-U6_MWPN_y9",
         songs: [
             "State Of Grace",
             "Red",
@@ -156,6 +160,7 @@ export const albums = [
     {
         id: "Fearless",
         album: "Fearless (Taylor's Version)",
+        playlist: "https://youtube.com/playlist?list=OLAK5uy_lUwH9j_s3ZEeayUSm5o93gtQVz0If_kd8&si=C1ScwnyU23NVczFu",
         songs: [
             "Fearless",
             "Fifteen",
@@ -187,6 +192,7 @@ export const albums = [
     {
         id: "evermore",
         album: "evermore",
+        playlist: "https://youtube.com/playlist?list=OLAK5uy_m-vSVOiVeY_z2lPgThmS6Nn0TJExXZtOg&si=AkMGbYtGNMG9XJfy",
         songs: [
             "willow",
             "champagne problems",
@@ -210,6 +216,7 @@ export const albums = [
     {
         id: "folklore",
         album: "folklore",
+        playlist: "https://youtube.com/playlist?list=OLAK5uy_nWgO-2lNMsx90439Yx0xTWCGIktUc74e8&si=VJ4bf04j7smOmPJo",
         songs: [
             "the 1",
             "cardigan",
@@ -233,6 +240,7 @@ export const albums = [
     {
         id: "Lover",
         album: "Lover",
+        playlist: "https://youtube.com/playlist?list=OLAK5uy_nHHWc9S0Nw7oLyLYBptkJ4DpkQeoL1Igw&si=O6M4l1WY2_g0D8dL",
         songs: [
             "I Forgot That You Existed",
             "Cruel Summer",
@@ -257,6 +265,7 @@ export const albums = [
     {
         id: "reputation",
         album: "reputation",
+        playlist: "https://youtube.com/playlist?list=OLAK5uy_kyYsExXByLh2281MMfi0QvZJF5epEUxbk&si=tfTaXD-nwbtos17m",
         songs: [
             "...Ready For It?",
             "End Game",
@@ -278,6 +287,7 @@ export const albums = [
     {
         id: "TaylorSwift",
         album: "Taylor Swift",
+        playlist: "https://youtube.com/playlist?list=OLAK5uy_l320Kcg2IKwpIRR07SD-ZejNX0cxRF32c&si=iEQEgM0CwkNunZN_",
         songs: [
             "Tim McGraw",
             "Picture To Burn",

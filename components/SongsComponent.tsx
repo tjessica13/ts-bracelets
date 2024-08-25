@@ -76,7 +76,7 @@ const SongsComponent = () => {
                     <div className="album" id={item.id}>
                         <div className="album-header flex gap-5 justify-center items-center">
                             <h2>{item.album}</h2>
-                            <a href={item.playlist} target="_blank" rel="noopener noreferrer" className="album-playlist">Playlist</a>
+                            <a href={item.playlist} target="_blank" rel="noopener noreferrer" className="album-playlist"><u>Playlist</u></a>
                         </div>
                             <div className="songs">
                                 {
