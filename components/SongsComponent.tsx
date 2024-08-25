@@ -5,7 +5,9 @@ import { useState } from 'react';
 import { sacramento, montserrat, rochester, anton, permanent_marker, unifraktur_maguntia, satisfy, im_fell_dw_pica, libre_calson_display } from '../app/fonts';
 
 import Image from 'next/image';
-import background from '../public/home_background.png'
+import background from '../public/home_background.png';
+
+import Link from 'next/link';
 
 const SongsComponent = () => {
 
@@ -42,7 +44,18 @@ const SongsComponent = () => {
         <div className={`${sacramento.variable} ${montserrat.variable} ${rochester.variable} ${anton.variable} 
         ${permanent_marker.variable} ${unifraktur_maguntia.variable} ${satisfy.variable} ${im_fell_dw_pica.variable}
         ${libre_calson_display.variable}`}>
+            
             <div className="Home h-screen">
+            <div className="top">
+                <Link href="./">TOP</Link>
+            </div>
+            <div className="album-nav flex">
+                {
+                    albums.map((item) => (
+                        <Link href={'#' + item.id}>{item.album}</Link>
+                    ))
+                }
+            </div>
 
             <div className="absolute inset-0 -z-10">
                 <Image
@@ -53,6 +66,8 @@ const SongsComponent = () => {
                 alt="home background with bracelets"
                 />
             </div>
+
+            
 
                 <h1>Taylor Swift Friendship Bracelets</h1>
                 <div className="letter-container">

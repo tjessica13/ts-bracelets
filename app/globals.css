@@ -20,6 +20,19 @@ body {
   font-size: 62px;
 }
 
+.album-nav {
+  top: 0px;
+  position: fixed;
+}
+
+.top {
+  bottom: 0px;
+  position: fixed;
+  right: 0px;
+  padding: 20px;
+  margin: 40px;
+}
+
 h1 {
   font-size: 42px;
   font-weight: bold;
