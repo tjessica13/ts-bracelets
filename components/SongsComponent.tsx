@@ -67,8 +67,6 @@ const SongsComponent = () => {
                 />
             </div>
 
-            
-
                 <h1>Taylor Swift Friendship Bracelets</h1>
                 <div className="letter-container">
                     <h2>Exclude Letters</h2>

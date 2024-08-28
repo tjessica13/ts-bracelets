@@ -1,7 +1,11 @@
 import SongsComponent from '@/components/SongsComponent';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
-    <SongsComponent />
+    <div>
+      <SongsComponent />
+      <Footer />
+    </div>
   );
 }
