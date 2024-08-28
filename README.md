@@ -1,4 +1,4 @@
-# Taylor Swift Frienship Bracelets (Website)
+# Taylor Swift Friendship Bracelets (Website)
 
 ## Project Overview
 
