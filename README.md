@@ -1,3 +1,25 @@
+# Taylor Swift Friendship Bracelets (Website)
+
+## Project Overview
+
+When creating friendship bracelets for the Taylor Swift Eras Tour, alphabet letter beads are used to make phrases, words, song titles, lyrics, etc. and letter frequency means that some letters will be used more often than others. This creates a problem where you may run out of certain letter beads and need to find words that do not contain that letter. 
+
+Inspired by the Pinterest lists and excel sheets made by Swifties, this website provides a more dynamic with customized filtering experience for Taylor Swift song titles. You can choose what letters to exclude and it will provide a list of song titles without those letters in it organized by their respective albums.
+
+Deployed on Github Pages.
+
+## To be added
+
+Development for this website is ongoing and more features are planned to be added. Features will be added and more Taylor Swift words, phrases, lyrics, etc. will be added.
+
+## References
+
+All Albums, Songs, and Concepts belong to Taylor Swift.
+
+Home background image designed by Jessica (me) and created using Figma.
+
+# NextJS Project Documentation
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
