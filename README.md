@@ -8,6 +8,10 @@ Inspired by the Pinterest lists and excel sheets made by Swifties, this website 
 
 Deployed on Github Pages.
 
+![image](https://github.com/user-attachments/assets/768dcb02-c6b1-4881-ba36-644fb6d1fc36)
+![image](https://github.com/user-attachments/assets/017fb5f1-0229-42b5-ab26-090b29fd47ea)
+![image](https://github.com/user-attachments/assets/852d0d14-1e41-4343-915f-463e2c597177)
+
 ## To be added
 
 Development for this website is ongoing and more features are planned to be added. Features will be added and more Taylor Swift words, phrases, lyrics, etc. will be added.
