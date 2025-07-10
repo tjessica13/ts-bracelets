@@ -28,6 +28,10 @@ body {
   padding: 5px;
 }
 
+.album-link {
+  margin: 5px;
+}
+
 .top {
   bottom: 0px;
   position: fixed;
